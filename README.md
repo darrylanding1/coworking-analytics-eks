@@ -84,3 +84,4 @@ kubectl rollout undo deployment/coworking
 - Set an **ECR lifecycle policy** to keep only the last 5 image tags.
 - Add a **CloudWatch retention policy** (7–14 days) instead of "never expire".
 < webhook test -->
+< rebuild -->
