@@ -83,3 +83,4 @@ kubectl rollout undo deployment/coworking
 - Delete the ELB when idle — each one is ~$18/mo regardless of traffic. Use `port-forward` for occasional access.
 - Set an **ECR lifecycle policy** to keep only the last 5 image tags.
 - Add a **CloudWatch retention policy** (7–14 days) instead of "never expire".
+< webhook test -->
